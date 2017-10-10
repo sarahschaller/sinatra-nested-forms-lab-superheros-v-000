@@ -5,7 +5,7 @@ class SuperHero
 
   def initialize(params)
     @name = params[:name]
-    @grade = params[:power]
+    @power = params[:power]
     @biography = params[:biography]
     SUPERHEROES << self
   end
