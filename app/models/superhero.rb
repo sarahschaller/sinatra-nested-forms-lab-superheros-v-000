@@ -7,10 +7,10 @@ class SuperHero
     @name = params[:name]
     @grade = params[:power]
     @biography = params[:biography]
-    SUPERHEROES << self 
-  end 
+    SUPERHEROES << self
+  end
 
-  def self.all 
+  def self.all
     SUPERHEROES
   end
 
